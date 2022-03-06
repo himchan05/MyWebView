@@ -11,6 +11,7 @@
 		0E74F14927D4A4AD00498C6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E74F14827D4A4AD00498C6C /* ContentView.swift */; };
 		0E74F14B27D4A4AF00498C6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E74F14A27D4A4AF00498C6C /* Assets.xcassets */; };
 		0E74F14E27D4A4AF00498C6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E74F14D27D4A4AF00498C6C /* Preview Assets.xcassets */; };
+		0E74F15527D4A67300498C6C /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E74F15427D4A67300498C6C /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,8 @@
 		0E74F14827D4A4AD00498C6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0E74F14A27D4A4AF00498C6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E74F14D27D4A4AF00498C6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E74F15427D4A67300498C6C /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		0E74F15727D4B04400498C6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +54,10 @@
 		0E74F14527D4A4AD00498C6C /* MyWebView */ = {
 			isa = PBXGroup;
 			children = (
+				0E74F15727D4B04400498C6C /* Info.plist */,
 				0E74F14627D4A4AD00498C6C /* MyWebViewApp.swift */,
 				0E74F14827D4A4AD00498C6C /* ContentView.swift */,
+				0E74F15427D4A67300498C6C /* WebView.swift */,
 				0E74F14A27D4A4AF00498C6C /* Assets.xcassets */,
 				0E74F14C27D4A4AF00498C6C /* Preview Content */,
 			);
@@ -137,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E74F15527D4A67300498C6C /* WebView.swift in Sources */,
 				0E74F14927D4A4AD00498C6C /* ContentView.swift in Sources */,
 				0E74F14727D4A4AD00498C6C /* MyWebViewApp.swift in Sources */,
 			);
@@ -272,6 +278,7 @@
 				DEVELOPMENT_TEAM = X37BT8TS5J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyWebView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -301,6 +308,7 @@
 				DEVELOPMENT_TEAM = X37BT8TS5J;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MyWebView/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
